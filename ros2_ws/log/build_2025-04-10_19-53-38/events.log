@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000627] (barcode_scanner) JobQueued: {'identifier': 'barcode_scanner', 'dependencies': OrderedDict()}
+[0.001191] (door_handle) JobQueued: {'identifier': 'door_handle', 'dependencies': OrderedDict()}
+[0.004781] (emergency_button) JobQueued: {'identifier': 'emergency_button', 'dependencies': OrderedDict()}
+[0.005347] (stack_light) JobQueued: {'identifier': 'stack_light', 'dependencies': OrderedDict()}
+[0.005620] (barcode_scanner) JobStarted: {'identifier': 'barcode_scanner'}
+[0.040780] (door_handle) JobStarted: {'identifier': 'door_handle'}
+[0.082426] (emergency_button) JobStarted: {'identifier': 'emergency_button'}
+[0.099450] (-) TimerEvent: {}
+[0.123218] (stack_light) JobStarted: {'identifier': 'stack_light'}
+[0.202447] (-) TimerEvent: {}
+[0.307056] (-) TimerEvent: {}
+[0.418302] (-) TimerEvent: {}
+[0.519203] (-) TimerEvent: {}
+[0.621077] (-) TimerEvent: {}
+[0.722388] (-) TimerEvent: {}
+[0.824324] (-) TimerEvent: {}
+[0.926315] (-) TimerEvent: {}
+[1.027311] (-) TimerEvent: {}
+[1.128350] (-) TimerEvent: {}
+[1.231141] (-) TimerEvent: {}
+[1.333075] (-) TimerEvent: {}
+[1.434346] (-) TimerEvent: {}
+[1.537289] (-) TimerEvent: {}
+[1.640043] (-) TimerEvent: {}
+[1.741245] (-) TimerEvent: {}
+[1.843073] (-) TimerEvent: {}
+[1.944217] (-) TimerEvent: {}
+[2.047287] (-) TimerEvent: {}
+[2.149315] (-) TimerEvent: {}
+[2.258504] (-) TimerEvent: {}
+[2.377259] (-) TimerEvent: {}
+[2.480241] (-) TimerEvent: {}
+[2.583736] (-) TimerEvent: {}
+[2.688311] (-) TimerEvent: {}
+[2.791484] (-) TimerEvent: {}
+[2.894089] (-) TimerEvent: {}
+[2.997253] (-) TimerEvent: {}
+[3.105457] (-) TimerEvent: {}
+[3.204085] (barcode_scanner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/barcode_scanner', 'build', '--build-base', '/ros2_ws/build/barcode_scanner/build', 'install', '--record', '/ros2_ws/build/barcode_scanner/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/barcode_scanner', 'env': {'HOSTNAME': 'ab80a8061de3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ros2_ws/install/stack_light:/ros2_ws/install/emergency_button:/ros2_ws/install/door_handle:/ros2_ws/install/barcode_scanner:/opt/ros/humble', 'PWD': '/ros2_ws/build/barcode_scanner', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/barcode_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:/ros2_ws/install/stack_light/lib/python3.10/site-packages:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:/ros2_ws/install/door_handle/lib/python3.10/site-packages:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.221438] (-) TimerEvent: {}
+[3.221792] (stack_light) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/stack_light', 'build', '--build-base', '/ros2_ws/build/stack_light/build', 'install', '--record', '/ros2_ws/build/stack_light/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/stack_light', 'env': {'HOSTNAME': 'ab80a8061de3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ros2_ws/install/stack_light:/ros2_ws/install/emergency_button:/ros2_ws/install/door_handle:/ros2_ws/install/barcode_scanner:/opt/ros/humble', 'PWD': '/ros2_ws/build/stack_light', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/stack_light/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/stack_light/lib/python3.10/site-packages:/ros2_ws/install/stack_light/lib/python3.10/site-packages:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:/ros2_ws/install/door_handle/lib/python3.10/site-packages:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.239158] (door_handle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/door_handle', 'build', '--build-base', '/ros2_ws/build/door_handle/build', 'install', '--record', '/ros2_ws/build/door_handle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/door_handle', 'env': {'HOSTNAME': 'ab80a8061de3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ros2_ws/install/stack_light:/ros2_ws/install/emergency_button:/ros2_ws/install/door_handle:/ros2_ws/install/barcode_scanner:/opt/ros/humble', 'PWD': '/ros2_ws/build/door_handle', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/door_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/door_handle/lib/python3.10/site-packages:/ros2_ws/install/stack_light/lib/python3.10/site-packages:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:/ros2_ws/install/door_handle/lib/python3.10/site-packages:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.322827] (-) TimerEvent: {}
+[3.351495] (emergency_button) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/emergency_button', 'build', '--build-base', '/ros2_ws/build/emergency_button/build', 'install', '--record', '/ros2_ws/build/emergency_button/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/emergency_button', 'env': {'HOSTNAME': 'ab80a8061de3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/ros2_ws/install/stack_light:/ros2_ws/install/emergency_button:/ros2_ws/install/door_handle:/ros2_ws/install/barcode_scanner:/opt/ros/humble', 'PWD': '/ros2_ws/build/emergency_button', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/emergency_button/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:/ros2_ws/install/stack_light/lib/python3.10/site-packages:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:/ros2_ws/install/door_handle/lib/python3.10/site-packages:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.423104] (-) TimerEvent: {}
+[3.532499] (-) TimerEvent: {}
+[3.647185] (-) TimerEvent: {}
+[3.754489] (-) TimerEvent: {}
+[3.860107] (-) TimerEvent: {}
+[3.962057] (-) TimerEvent: {}
+[4.049512] (barcode_scanner) StdoutLine: {'line': b'running egg_info\n'}
+[4.059536] (barcode_scanner) StdoutLine: {'line': b'writing ../../build/barcode_scanner/barcode_scanner.egg-info/PKG-INFO\n'}
+[4.072026] (-) TimerEvent: {}
+[4.072878] (stack_light) StdoutLine: {'line': b'running egg_info\n'}
+[4.078721] (stack_light) StdoutLine: {'line': b'writing ../../build/stack_light/stack_light.egg-info/PKG-INFO\n'}
+[4.083083] (barcode_scanner) StdoutLine: {'line': b'writing dependency_links to ../../build/barcode_scanner/barcode_scanner.egg-info/dependency_links.txt\n'}
+[4.087757] (stack_light) StdoutLine: {'line': b'writing dependency_links to ../../build/stack_light/stack_light.egg-info/dependency_links.txt\n'}
+[4.094450] (barcode_scanner) StdoutLine: {'line': b'writing entry points to ../../build/barcode_scanner/barcode_scanner.egg-info/entry_points.txt\n'}
+[4.098931] (stack_light) StdoutLine: {'line': b'writing entry points to ../../build/stack_light/stack_light.egg-info/entry_points.txt\n'}
+[4.105315] (barcode_scanner) StdoutLine: {'line': b'writing requirements to ../../build/barcode_scanner/barcode_scanner.egg-info/requires.txt\n'}
+[4.112695] (stack_light) StdoutLine: {'line': b'writing requirements to ../../build/stack_light/stack_light.egg-info/requires.txt\n'}
+[4.114932] (barcode_scanner) StdoutLine: {'line': b'writing top-level names to ../../build/barcode_scanner/barcode_scanner.egg-info/top_level.txt\n'}
+[4.116518] (stack_light) StdoutLine: {'line': b'writing top-level names to ../../build/stack_light/stack_light.egg-info/top_level.txt\n'}
+[4.120129] (stack_light) StdoutLine: {'line': b"reading manifest file '../../build/stack_light/stack_light.egg-info/SOURCES.txt'\n"}
+[4.126493] (barcode_scanner) StdoutLine: {'line': b"reading manifest file '../../build/barcode_scanner/barcode_scanner.egg-info/SOURCES.txt'\n"}
+[4.128525] (stack_light) StdoutLine: {'line': b"writing manifest file '../../build/stack_light/stack_light.egg-info/SOURCES.txt'\n"}
+[4.130548] (barcode_scanner) StdoutLine: {'line': b"writing manifest file '../../build/barcode_scanner/barcode_scanner.egg-info/SOURCES.txt'\n"}
+[4.136880] (barcode_scanner) StdoutLine: {'line': b'running build\n'}
+[4.138010] (barcode_scanner) StdoutLine: {'line': b'running build_py\n'}
+[4.142370] (stack_light) StdoutLine: {'line': b'running build\n'}
+[4.146230] (stack_light) StdoutLine: {'line': b'running build_py\n'}
+[4.146990] (barcode_scanner) StdoutLine: {'line': b'copying barcode_scanner/barcode_node.py -> /ros2_ws/build/barcode_scanner/build/lib/barcode_scanner\n'}
+[4.148403] (stack_light) StdoutLine: {'line': b'running install\n'}
+[4.151627] (stack_light) StdoutLine: {'line': b'running install_lib\n'}
+[4.155858] (barcode_scanner) StdoutLine: {'line': b'running install\n'}
+[4.162890] (barcode_scanner) StdoutLine: {'line': b'running install_lib\n'}
+[4.175895] (-) TimerEvent: {}
+[4.180297] (stack_light) StdoutLine: {'line': b'running install_data\n'}
+[4.217186] (stack_light) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.231737] (door_handle) StdoutLine: {'line': b'running egg_info\n'}
+[4.234648] (stack_light) StdoutLine: {'line': b"removing '/ros2_ws/install/stack_light/lib/python3.10/site-packages/stack_light-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[4.244205] (door_handle) StdoutLine: {'line': b'writing ../../build/door_handle/door_handle.egg-info/PKG-INFO\n'}
+[4.254566] (door_handle) StdoutLine: {'line': b'writing dependency_links to ../../build/door_handle/door_handle.egg-info/dependency_links.txt\n'}
+[4.256720] (stack_light) StdoutLine: {'line': b'Copying ../../build/stack_light/stack_light.egg-info to /ros2_ws/install/stack_light/lib/python3.10/site-packages/stack_light-0.1.0-py3.10.egg-info\n'}
+[4.261331] (barcode_scanner) StdoutLine: {'line': b'copying /ros2_ws/build/barcode_scanner/build/lib/barcode_scanner/barcode_node.py -> /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner\n'}
+[4.264738] (door_handle) StdoutLine: {'line': b'writing entry points to ../../build/door_handle/door_handle.egg-info/entry_points.txt\n'}
+[4.267291] (door_handle) StdoutLine: {'line': b'writing requirements to ../../build/door_handle/door_handle.egg-info/requires.txt\n'}
+[4.269223] (door_handle) StdoutLine: {'line': b'writing top-level names to ../../build/door_handle/door_handle.egg-info/top_level.txt\n'}
+[4.273087] (barcode_scanner) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner/barcode_node.py to barcode_node.cpython-310.pyc\n'}
+[4.278305] (-) TimerEvent: {}
+[4.279220] (door_handle) StdoutLine: {'line': b"reading manifest file '../../build/door_handle/door_handle.egg-info/SOURCES.txt'\n"}
+[4.284824] (barcode_scanner) StdoutLine: {'line': b'running install_data\n'}
+[4.289292] (barcode_scanner) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.293488] (barcode_scanner) StdoutLine: {'line': b"removing '/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[4.296920] (door_handle) StdoutLine: {'line': b"writing manifest file '../../build/door_handle/door_handle.egg-info/SOURCES.txt'\n"}
+[4.304003] (barcode_scanner) StdoutLine: {'line': b'Copying ../../build/barcode_scanner/barcode_scanner.egg-info to /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner-0.1.0-py3.10.egg-info\n'}
+[4.306104] (door_handle) StdoutLine: {'line': b'running build\n'}
+[4.308404] (door_handle) StdoutLine: {'line': b'running build_py\n'}
+[4.315701] (door_handle) StdoutLine: {'line': b'running install\n'}
+[4.318761] (door_handle) StdoutLine: {'line': b'running install_lib\n'}
+[4.322576] (door_handle) StdoutLine: {'line': b'running install_data\n'}
+[4.325771] (door_handle) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.327531] (door_handle) StdoutLine: {'line': b"removing '/ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[4.333271] (stack_light) StdoutLine: {'line': b'running install_scripts\n'}
+[4.341348] (door_handle) StdoutLine: {'line': b'Copying ../../build/door_handle/door_handle.egg-info to /ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle-0.1.0-py3.10.egg-info\n'}
+[4.352628] (stack_light) StdoutLine: {'line': b'Installing stack_node script to /ros2_ws/install/stack_light/lib/stack_light\n'}
+[4.357161] (barcode_scanner) StdoutLine: {'line': b'running install_scripts\n'}
+[4.360538] (stack_light) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/stack_light/install.log'\n"}
+[4.379267] (-) TimerEvent: {}
+[4.402791] (door_handle) StdoutLine: {'line': b'running install_scripts\n'}
+[4.416430] (barcode_scanner) StdoutLine: {'line': b'Installing barcode_node script to /ros2_ws/install/barcode_scanner/lib/barcode_scanner\n'}
+[4.423712] (barcode_scanner) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/barcode_scanner/install.log'\n"}
+[4.446236] (stack_light) CommandEnded: {'returncode': 0}
+[4.450679] (emergency_button) StdoutLine: {'line': b'running egg_info\n'}
+[4.463191] (emergency_button) StdoutLine: {'line': b'writing ../../build/emergency_button/emergency_button.egg-info/PKG-INFO\n'}
+[4.464810] (emergency_button) StdoutLine: {'line': b'writing dependency_links to ../../build/emergency_button/emergency_button.egg-info/dependency_links.txt\n'}
+[4.465970] (emergency_button) StdoutLine: {'line': b'writing entry points to ../../build/emergency_button/emergency_button.egg-info/entry_points.txt\n'}
+[4.473138] (emergency_button) StdoutLine: {'line': b'writing requirements to ../../build/emergency_button/emergency_button.egg-info/requires.txt\n'}
+[4.479268] (door_handle) StdoutLine: {'line': b'Installing door_node script to /ros2_ws/install/door_handle/lib/door_handle\n'}
+[4.484355] (-) TimerEvent: {}
+[4.485605] (emergency_button) StdoutLine: {'line': b'writing top-level names to ../../build/emergency_button/emergency_button.egg-info/top_level.txt\n'}
+[4.493270] (door_handle) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/door_handle/install.log'\n"}
+[4.497220] (emergency_button) StdoutLine: {'line': b"reading manifest file '../../build/emergency_button/emergency_button.egg-info/SOURCES.txt'\n"}
+[4.522793] (emergency_button) StdoutLine: {'line': b"writing manifest file '../../build/emergency_button/emergency_button.egg-info/SOURCES.txt'\n"}
+[4.525110] (emergency_button) StdoutLine: {'line': b'running build\n'}
+[4.528051] (emergency_button) StdoutLine: {'line': b'running build_py\n'}
+[4.533611] (emergency_button) StdoutLine: {'line': b'running install\n'}
+[4.537274] (emergency_button) StdoutLine: {'line': b'running install_lib\n'}
+[4.541438] (emergency_button) StdoutLine: {'line': b'running install_data\n'}
+[4.542844] (emergency_button) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.547220] (emergency_button) StdoutLine: {'line': b"removing '/ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[4.554633] (emergency_button) StdoutLine: {'line': b'Copying ../../build/emergency_button/emergency_button.egg-info to /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button-0.1.0-py3.10.egg-info\n'}
+[4.585296] (-) TimerEvent: {}
+[4.586867] (stack_light) JobEnded: {'identifier': 'stack_light', 'rc': 0}
+[4.599107] (barcode_scanner) CommandEnded: {'returncode': 0}
+[4.616211] (emergency_button) StdoutLine: {'line': b'running install_scripts\n'}
+[4.682235] (emergency_button) StdoutLine: {'line': b'Installing emergency_node script to /ros2_ws/install/emergency_button/lib/emergency_button\n'}
+[4.687637] (emergency_button) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/emergency_button/install.log'\n"}
+[4.692510] (-) TimerEvent: {}
+[4.694039] (barcode_scanner) JobEnded: {'identifier': 'barcode_scanner', 'rc': 0}
+[4.703485] (door_handle) CommandEnded: {'returncode': 0}
+[4.771760] (door_handle) JobEnded: {'identifier': 'door_handle', 'rc': 0}
+[4.787620] (emergency_button) CommandEnded: {'returncode': 0}
+[4.793014] (-) TimerEvent: {}
+[4.858828] (emergency_button) JobEnded: {'identifier': 'emergency_button', 'rc': 0}
+[4.876224] (-) EventReactorShutdown: {}

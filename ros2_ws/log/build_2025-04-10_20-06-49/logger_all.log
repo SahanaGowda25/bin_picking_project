@@ -1,0 +1,332 @@
+[0.266s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.266s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6f4e582920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6f4e6fb8b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6f4e6fb8b0>>, mixin_verb=('build',))
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.515s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.519s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.522s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ros2_ws'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'ros'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'python'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extensions ['python_setup_py']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(api) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extensions ['cmake', 'python']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(hmi) by extension 'python_setup_py'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extensions ['cmake', 'python']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'cmake'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'python'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extensions ['python_setup_py']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/static) by extension 'python_setup_py'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'ros'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'python'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extensions ['python_setup_py']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(hmi/templates) by extension 'python_setup_py'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_scanner) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/barcode_scanner' with type 'ros.ament_python' and name 'barcode_scanner'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/door_handle) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'src/door_handle' with type 'ros.ament_python' and name 'door_handle'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/emergency_button) by extension 'ros'
+[0.642s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emergency_button' with type 'ros.ament_python' and name 'emergency_button'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/stack_light) by extension 'ros'
+[0.653s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stack_light' with type 'ros.ament_python' and name 'stack_light'
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'barcode_scanner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'barcode_scanner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2_ws/build/barcode_scanner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2_ws/install/barcode_scanner', 'merge_install': False, 'path': '/ros2_ws/src/barcode_scanner', 'symlink_install': False, 'test_result_base': None}
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'cmake_target' from command line to 'None'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'cmake_clean_first' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'cmake_force_configure' from command line to 'False'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'door_handle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] DEBUG:colcon.colcon_core.verb:Building package 'door_handle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2_ws/build/door_handle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2_ws/install/door_handle', 'merge_install': False, 'path': '/ros2_ws/src/door_handle', 'symlink_install': False, 'test_result_base': None}
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'cmake_target' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'cmake_clean_cache' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'emergency_button' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'emergency_button' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2_ws/build/emergency_button', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2_ws/install/emergency_button', 'merge_install': False, 'path': '/ros2_ws/src/emergency_button', 'symlink_install': False, 'test_result_base': None}
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'cmake_clean_first' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'cmake_force_configure' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'ament_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'stack_light' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.713s] DEBUG:colcon.colcon_core.verb:Building package 'stack_light' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2_ws/build/stack_light', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2_ws/install/stack_light', 'merge_install': False, 'path': '/ros2_ws/src/stack_light', 'symlink_install': False, 'test_result_base': None}
+[0.714s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.717s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.718s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2_ws/src/barcode_scanner' with build type 'ament_python'
+[0.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('barcode_scanner', 'ament_prefix_path')
+[0.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/barcode_scanner/share/barcode_scanner/hook/ament_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/barcode_scanner/share/barcode_scanner/hook/ament_prefix_path.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/barcode_scanner/share/barcode_scanner/hook/ament_prefix_path.sh'
+[0.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2_ws/src/door_handle' with build type 'ament_python'
+[0.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('door_handle', 'ament_prefix_path')
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/door_handle/share/door_handle/hook/ament_prefix_path.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/door_handle/share/door_handle/hook/ament_prefix_path.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/door_handle/share/door_handle/hook/ament_prefix_path.sh'
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.801s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2_ws/src/emergency_button' with build type 'ament_python'
+[0.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_button', 'ament_prefix_path')
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/emergency_button/share/emergency_button/hook/ament_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/emergency_button/share/emergency_button/hook/ament_prefix_path.dsv'
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/emergency_button/share/emergency_button/hook/ament_prefix_path.sh'
+[0.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.837s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2_ws/src/stack_light' with build type 'ament_python'
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('stack_light', 'ament_prefix_path')
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/stack_light/share/stack_light/hook/ament_prefix_path.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/stack_light/share/stack_light/hook/ament_prefix_path.dsv'
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/stack_light/share/stack_light/hook/ament_prefix_path.sh'
+[0.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2_ws/src/barcode_scanner'
+[1.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.841s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2_ws/src/door_handle'
+[1.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.265s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2_ws/src/emergency_button'
+[2.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.835s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2_ws/src/stack_light'
+[2.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/src/door_handle': PYTHONPATH=/ros2_ws/build/door_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/door_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/door_handle build --build-base /ros2_ws/build/door_handle/build install --record /ros2_ws/build/door_handle/install.log --single-version-externally-managed install_data
+[3.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/src/emergency_button': PYTHONPATH=/ros2_ws/build/emergency_button/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_button build --build-base /ros2_ws/build/emergency_button/build install --record /ros2_ws/build/emergency_button/install.log --single-version-externally-managed install_data
+[4.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/src/barcode_scanner': PYTHONPATH=/ros2_ws/build/barcode_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_scanner build --build-base /ros2_ws/build/barcode_scanner/build install --record /ros2_ws/build/barcode_scanner/install.log --single-version-externally-managed install_data
+[4.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/src/stack_light': PYTHONPATH=/ros2_ws/build/stack_light/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/stack_light/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stack_light build --build-base /ros2_ws/build/stack_light/build install --record /ros2_ws/build/stack_light/install.log --single-version-externally-managed install_data
+[5.075s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/barcode_scanner' for CMake module files
+[5.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/src/barcode_scanner' returned '0': PYTHONPATH=/ros2_ws/build/barcode_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_scanner build --build-base /ros2_ws/build/barcode_scanner/build install --record /ros2_ws/build/barcode_scanner/install.log --single-version-externally-managed install_data
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/barcode_scanner' for CMake config files
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/barcode_scanner/lib'
+[5.160s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/barcode_scanner/bin'
+[5.162s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/barcode_scanner/lib/pkgconfig/barcode_scanner.pc'
+[5.163s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages'
+[5.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('barcode_scanner', 'pythonpath')
+[5.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/barcode_scanner/share/barcode_scanner/hook/pythonpath.ps1'
+[5.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/barcode_scanner/share/barcode_scanner/hook/pythonpath.dsv'
+[5.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/barcode_scanner/share/barcode_scanner/hook/pythonpath.sh'
+[5.173s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/barcode_scanner/bin'
+[5.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(barcode_scanner)
+[5.175s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/barcode_scanner/share/barcode_scanner/package.ps1'
+[5.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/barcode_scanner/share/barcode_scanner/package.dsv'
+[5.183s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/barcode_scanner/share/barcode_scanner/package.sh'
+[5.186s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/barcode_scanner/share/barcode_scanner/package.bash'
+[5.196s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/barcode_scanner/share/barcode_scanner/package.zsh'
+[5.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/barcode_scanner/share/colcon-core/packages/barcode_scanner)
+[5.229s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/emergency_button' for CMake module files
+[5.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/src/emergency_button' returned '0': PYTHONPATH=/ros2_ws/build/emergency_button/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_button build --build-base /ros2_ws/build/emergency_button/build install --record /ros2_ws/build/emergency_button/install.log --single-version-externally-managed install_data
+[5.242s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/emergency_button' for CMake config files
+[5.267s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/emergency_button/lib'
+[5.268s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/emergency_button/bin'
+[5.268s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/emergency_button/lib/pkgconfig/emergency_button.pc'
+[5.269s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/emergency_button/lib/python3.10/site-packages'
+[5.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_button', 'pythonpath')
+[5.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/emergency_button/share/emergency_button/hook/pythonpath.ps1'
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/emergency_button/share/emergency_button/hook/pythonpath.dsv'
+[5.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/emergency_button/share/emergency_button/hook/pythonpath.sh'
+[5.279s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/emergency_button/bin'
+[5.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emergency_button)
+[5.281s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/emergency_button/share/emergency_button/package.ps1'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/emergency_button/share/emergency_button/package.dsv'
+[5.286s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/emergency_button/share/emergency_button/package.sh'
+[5.289s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/emergency_button/share/emergency_button/package.bash'
+[5.291s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/emergency_button/share/emergency_button/package.zsh'
+[5.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/emergency_button/share/colcon-core/packages/emergency_button)
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/door_handle' for CMake module files
+[5.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/src/door_handle' returned '0': PYTHONPATH=/ros2_ws/build/door_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/door_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/door_handle build --build-base /ros2_ws/build/door_handle/build install --record /ros2_ws/build/door_handle/install.log --single-version-externally-managed install_data
+[5.312s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/door_handle' for CMake config files
+[5.335s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/door_handle/lib'
+[5.337s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/door_handle/bin'
+[5.338s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/door_handle/lib/pkgconfig/door_handle.pc'
+[5.339s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/door_handle/lib/python3.10/site-packages'
+[5.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('door_handle', 'pythonpath')
+[5.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/door_handle/share/door_handle/hook/pythonpath.ps1'
+[5.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/door_handle/share/door_handle/hook/pythonpath.dsv'
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/door_handle/share/door_handle/hook/pythonpath.sh'
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/door_handle/bin'
+[5.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(door_handle)
+[5.350s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/door_handle/share/door_handle/package.ps1'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/door_handle/share/door_handle/package.dsv'
+[5.358s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/door_handle/share/door_handle/package.sh'
+[5.361s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/door_handle/share/door_handle/package.bash'
+[5.363s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/door_handle/share/door_handle/package.zsh'
+[5.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/door_handle/share/colcon-core/packages/door_handle)
+[5.371s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/stack_light' for CMake module files
+[5.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/src/stack_light' returned '0': PYTHONPATH=/ros2_ws/build/stack_light/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/stack_light/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stack_light build --build-base /ros2_ws/build/stack_light/build install --record /ros2_ws/build/stack_light/install.log --single-version-externally-managed install_data
+[5.396s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/stack_light' for CMake config files
+[5.419s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/stack_light/lib'
+[5.421s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/stack_light/bin'
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/stack_light/lib/pkgconfig/stack_light.pc'
+[5.423s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/stack_light/lib/python3.10/site-packages'
+[5.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('stack_light', 'pythonpath')
+[5.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/stack_light/share/stack_light/hook/pythonpath.ps1'
+[5.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/stack_light/share/stack_light/hook/pythonpath.dsv'
+[5.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/stack_light/share/stack_light/hook/pythonpath.sh'
+[5.436s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/stack_light/bin'
+[5.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stack_light)
+[5.437s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/stack_light/share/stack_light/package.ps1'
+[5.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/stack_light/share/stack_light/package.dsv'
+[5.445s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/stack_light/share/stack_light/package.sh'
+[5.447s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/stack_light/share/stack_light/package.bash'
+[5.449s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/stack_light/share/stack_light/package.zsh'
+[5.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/stack_light/share/colcon-core/packages/stack_light)
+[5.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.457s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.462s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.465s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.488s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.491s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.492s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[5.493s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.ps1'
+[5.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2_ws/install/_local_setup_util_ps1.py'
+[5.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.ps1'
+[5.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.sh'
+[5.524s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2_ws/install/_local_setup_util_sh.py'
+[5.530s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.sh'
+[5.559s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.bash'
+[5.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.bash'
+[5.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.zsh'
+[5.583s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.zsh'

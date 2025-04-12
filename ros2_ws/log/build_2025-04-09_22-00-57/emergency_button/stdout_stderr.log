@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/emergency_button/emergency_button.egg-info
+writing ../../build/emergency_button/emergency_button.egg-info/PKG-INFO
+writing dependency_links to ../../build/emergency_button/emergency_button.egg-info/dependency_links.txt
+writing entry points to ../../build/emergency_button/emergency_button.egg-info/entry_points.txt
+writing requirements to ../../build/emergency_button/emergency_button.egg-info/requires.txt
+writing top-level names to ../../build/emergency_button/emergency_button.egg-info/top_level.txt
+writing manifest file '../../build/emergency_button/emergency_button.egg-info/SOURCES.txt'
+reading manifest file '../../build/emergency_button/emergency_button.egg-info/SOURCES.txt'
+writing manifest file '../../build/emergency_button/emergency_button.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros2_ws/build/emergency_button/build
+creating /ros2_ws/build/emergency_button/build/lib
+creating /ros2_ws/build/emergency_button/build/lib/emergency_button
+copying emergency_button/__init__.py -> /ros2_ws/build/emergency_button/build/lib/emergency_button
+copying emergency_button/emergency_node.py -> /ros2_ws/build/emergency_button/build/lib/emergency_button
+running install
+running install_lib
+creating /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button
+copying /ros2_ws/build/emergency_button/build/lib/emergency_button/__init__.py -> /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button
+copying /ros2_ws/build/emergency_button/build/lib/emergency_button/emergency_node.py -> /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button
+byte-compiling /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button/emergency_node.py to emergency_node.cpython-310.pyc
+running install_data
+creating /ros2_ws/install/emergency_button/share/ament_index
+creating /ros2_ws/install/emergency_button/share/ament_index/resource_index
+creating /ros2_ws/install/emergency_button/share/ament_index/resource_index/packages
+copying resource/emergency_button -> /ros2_ws/install/emergency_button/share/ament_index/resource_index/packages
+copying package.xml -> /ros2_ws/install/emergency_button/share/emergency_button
+running install_egg_info
+Copying ../../build/emergency_button/emergency_button.egg-info to /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button-0.1.0-py3.10.egg-info
+running install_scripts
+Installing emergency_node script to /ros2_ws/install/emergency_button/lib/emergency_button
+writing list of installed files to '/ros2_ws/build/emergency_button/install.log'

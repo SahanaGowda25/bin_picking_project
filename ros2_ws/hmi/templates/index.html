@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bin Picking HMI</title>
+  <script src="/static/script.js" defer></script>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f9f9f9; }
+    .status-box { padding: 15px; margin: 10px 0; border-radius: 8px; background: white; box-shadow: 0 0 5px #ccc; }
+    .green { background-color: #7dd491; }
+    .yellow { background-color: #dbbc59; }
+    .red { background-color: #bd535b; }
+    button { margin-right: 10px; padding: 8px 12px; font-size: 14px; }
+    input { margin: 5px 10px 5px 0; padding: 5px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1> Bin Picking HMI Dashboard</h1>
+
+  <div class="status-box" id="stack-status">Stack Light: <b>Loading...</b></div>
+  <div class="status-box" id="door-status">Door State: <b>Loading...</b></div>
+  <div class="status-box" id="emergency-status">Emergency Button: <b>Loading...</b></div>
+  <div class="status-box" id="barcode">Last Scanned Barcode: <b>Loading...</b></div>
+
+  <div class="status-box">
+    <button onclick="toggleDoor()"> Toggle Door</button>
+    <button onclick="pressEmergency()"> Press Emergency</button>
+    <button onclick="releaseEmergency()"> Release Emergency</button>
+  </div>
+
+  <div class="status-box">
+    <h3>Send Pick Request</h3>
+    <input type="number" id="pickId" placeholder="Pick ID" />
+    <input type="number" id="quantity" placeholder="Quantity" />
+    <button onclick="sendPickRequest()"> Send Request</button>
+    <div id="pick-response" style="margin-top: 10px;"></div>
+  </div>
+</body>
+</html>

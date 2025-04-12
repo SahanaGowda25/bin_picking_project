@@ -1,0 +1,37 @@
+[4.593s] Invoking command in '/ros2_ws/src/door_handle': PYTHONPATH=/ros2_ws/build/door_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/door_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/door_handle build --build-base /ros2_ws/build/door_handle/build install --record /ros2_ws/build/door_handle/install.log --single-version-externally-managed install_data
+[5.491s] running egg_info
+[5.536s] creating ../../build/door_handle/door_handle.egg-info
+[5.544s] writing ../../build/door_handle/door_handle.egg-info/PKG-INFO
+[5.566s] writing dependency_links to ../../build/door_handle/door_handle.egg-info/dependency_links.txt
+[5.579s] writing entry points to ../../build/door_handle/door_handle.egg-info/entry_points.txt
+[5.591s] writing requirements to ../../build/door_handle/door_handle.egg-info/requires.txt
+[5.594s] writing top-level names to ../../build/door_handle/door_handle.egg-info/top_level.txt
+[5.598s] writing manifest file '../../build/door_handle/door_handle.egg-info/SOURCES.txt'
+[5.608s] reading manifest file '../../build/door_handle/door_handle.egg-info/SOURCES.txt'
+[5.616s] writing manifest file '../../build/door_handle/door_handle.egg-info/SOURCES.txt'
+[5.630s] running build
+[5.633s] running build_py
+[5.647s] creating /ros2_ws/build/door_handle/build
+[5.651s] creating /ros2_ws/build/door_handle/build/lib
+[5.655s] creating /ros2_ws/build/door_handle/build/lib/door_handle
+[5.659s] copying door_handle/door_node.py -> /ros2_ws/build/door_handle/build/lib/door_handle
+[5.727s] copying door_handle/__init__.py -> /ros2_ws/build/door_handle/build/lib/door_handle
+[5.730s] running install
+[5.732s] running install_lib
+[5.740s] creating /ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle
+[5.741s] copying /ros2_ws/build/door_handle/build/lib/door_handle/door_node.py -> /ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle
+[5.744s] copying /ros2_ws/build/door_handle/build/lib/door_handle/__init__.py -> /ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle
+[5.747s] byte-compiling /ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle/door_node.py to door_node.cpython-310.pyc
+[5.752s] byte-compiling /ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle/__init__.py to __init__.cpython-310.pyc
+[5.758s] running install_data
+[5.760s] creating /ros2_ws/install/door_handle/share/ament_index
+[5.761s] creating /ros2_ws/install/door_handle/share/ament_index/resource_index
+[5.762s] creating /ros2_ws/install/door_handle/share/ament_index/resource_index/packages
+[5.764s] copying resource/door_handle -> /ros2_ws/install/door_handle/share/ament_index/resource_index/packages
+[5.832s] copying package.xml -> /ros2_ws/install/door_handle/share/door_handle
+[5.840s] running install_egg_info
+[5.849s] Copying ../../build/door_handle/door_handle.egg-info to /ros2_ws/install/door_handle/lib/python3.10/site-packages/door_handle-0.1.0-py3.10.egg-info
+[5.904s] running install_scripts
+[5.911s] Installing door_node script to /ros2_ws/install/door_handle/lib/door_handle
+[5.913s] writing list of installed files to '/ros2_ws/build/door_handle/install.log'
+[6.062s] Invoked command in '/ros2_ws/src/door_handle' returned '0': PYTHONPATH=/ros2_ws/build/door_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/door_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/door_handle build --build-base /ros2_ws/build/door_handle/build install --record /ros2_ws/build/door_handle/install.log --single-version-externally-managed install_data

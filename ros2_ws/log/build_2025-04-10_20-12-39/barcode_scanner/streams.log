@@ -1,0 +1,21 @@
+[3.100s] Invoking command in '/ros2_ws/src/barcode_scanner': PYTHONPATH=/ros2_ws/build/barcode_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_scanner build --build-base /ros2_ws/build/barcode_scanner/build install --record /ros2_ws/build/barcode_scanner/install.log --single-version-externally-managed install_data
+[3.960s] running egg_info
+[3.984s] writing ../../build/barcode_scanner/barcode_scanner.egg-info/PKG-INFO
+[3.997s] writing dependency_links to ../../build/barcode_scanner/barcode_scanner.egg-info/dependency_links.txt
+[4.035s] writing entry points to ../../build/barcode_scanner/barcode_scanner.egg-info/entry_points.txt
+[4.039s] writing requirements to ../../build/barcode_scanner/barcode_scanner.egg-info/requires.txt
+[4.050s] writing top-level names to ../../build/barcode_scanner/barcode_scanner.egg-info/top_level.txt
+[4.089s] reading manifest file '../../build/barcode_scanner/barcode_scanner.egg-info/SOURCES.txt'
+[4.104s] writing manifest file '../../build/barcode_scanner/barcode_scanner.egg-info/SOURCES.txt'
+[4.110s] running build
+[4.112s] running build_py
+[4.126s] running install
+[4.171s] running install_lib
+[4.203s] running install_data
+[4.205s] running install_egg_info
+[4.215s] removing '/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner-0.1.0-py3.10.egg-info' (and everything under it)
+[4.241s] Copying ../../build/barcode_scanner/barcode_scanner.egg-info to /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner-0.1.0-py3.10.egg-info
+[4.283s] running install_scripts
+[4.465s] Installing barcode_node script to /ros2_ws/install/barcode_scanner/lib/barcode_scanner
+[4.475s] writing list of installed files to '/ros2_ws/build/barcode_scanner/install.log'
+[4.729s] Invoked command in '/ros2_ws/src/barcode_scanner' returned '0': PYTHONPATH=/ros2_ws/build/barcode_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_scanner build --build-base /ros2_ws/build/barcode_scanner/build install --record /ros2_ws/build/barcode_scanner/install.log --single-version-externally-managed install_data

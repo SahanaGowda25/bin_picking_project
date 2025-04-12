@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  ros2:
+    build: .
+    container_name: bin-picking-ros2
+    volumes:
+      - ./ros2_ws:/ros2_ws
+    working_dir: /ros2_ws
+    tty: true
+    stdin_open: true
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+      - "5000:5000"

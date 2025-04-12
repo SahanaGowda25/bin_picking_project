@@ -1,0 +1,21 @@
+[3.577s] Invoking command in '/ros2_ws/src/stack_light': PYTHONPATH=/ros2_ws/build/stack_light/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/stack_light/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stack_light build --build-base /ros2_ws/build/stack_light/build install --record /ros2_ws/build/stack_light/install.log --single-version-externally-managed install_data
+[4.303s] running egg_info
+[4.307s] writing ../../build/stack_light/stack_light.egg-info/PKG-INFO
+[4.317s] writing dependency_links to ../../build/stack_light/stack_light.egg-info/dependency_links.txt
+[4.323s] writing entry points to ../../build/stack_light/stack_light.egg-info/entry_points.txt
+[4.331s] writing requirements to ../../build/stack_light/stack_light.egg-info/requires.txt
+[4.343s] writing top-level names to ../../build/stack_light/stack_light.egg-info/top_level.txt
+[4.366s] reading manifest file '../../build/stack_light/stack_light.egg-info/SOURCES.txt'
+[4.383s] writing manifest file '../../build/stack_light/stack_light.egg-info/SOURCES.txt'
+[4.385s] running build
+[4.388s] running build_py
+[4.392s] running install
+[4.393s] running install_lib
+[4.396s] running install_data
+[4.397s] running install_egg_info
+[4.410s] removing '/ros2_ws/install/stack_light/lib/python3.10/site-packages/stack_light-0.1.0-py3.10.egg-info' (and everything under it)
+[4.433s] Copying ../../build/stack_light/stack_light.egg-info to /ros2_ws/install/stack_light/lib/python3.10/site-packages/stack_light-0.1.0-py3.10.egg-info
+[4.518s] running install_scripts
+[4.572s] Installing stack_node script to /ros2_ws/install/stack_light/lib/stack_light
+[4.581s] writing list of installed files to '/ros2_ws/build/stack_light/install.log'
+[4.714s] Invoked command in '/ros2_ws/src/stack_light' returned '0': PYTHONPATH=/ros2_ws/build/stack_light/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/stack_light/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stack_light build --build-base /ros2_ws/build/stack_light/build install --record /ros2_ws/build/stack_light/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[4.578s] Invoking command in '/ros2_ws/src/barcode_scanner': PYTHONPATH=/ros2_ws/build/barcode_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_scanner build --build-base /ros2_ws/build/barcode_scanner/build install --record /ros2_ws/build/barcode_scanner/install.log --single-version-externally-managed install_data
+[5.396s] running egg_info
+[5.405s] creating ../../build/barcode_scanner/barcode_scanner.egg-info
+[5.411s] writing ../../build/barcode_scanner/barcode_scanner.egg-info/PKG-INFO
+[5.413s] writing dependency_links to ../../build/barcode_scanner/barcode_scanner.egg-info/dependency_links.txt
+[5.417s] writing entry points to ../../build/barcode_scanner/barcode_scanner.egg-info/entry_points.txt
+[5.425s] writing requirements to ../../build/barcode_scanner/barcode_scanner.egg-info/requires.txt
+[5.431s] writing top-level names to ../../build/barcode_scanner/barcode_scanner.egg-info/top_level.txt
+[5.435s] writing manifest file '../../build/barcode_scanner/barcode_scanner.egg-info/SOURCES.txt'
+[5.449s] reading manifest file '../../build/barcode_scanner/barcode_scanner.egg-info/SOURCES.txt'
+[5.462s] writing manifest file '../../build/barcode_scanner/barcode_scanner.egg-info/SOURCES.txt'
+[5.469s] running build
+[5.481s] running build_py
+[5.502s] creating /ros2_ws/build/barcode_scanner/build
+[5.534s] creating /ros2_ws/build/barcode_scanner/build/lib
+[5.536s] creating /ros2_ws/build/barcode_scanner/build/lib/barcode_scanner
+[5.539s] copying barcode_scanner/__init__.py -> /ros2_ws/build/barcode_scanner/build/lib/barcode_scanner
+[5.541s] copying barcode_scanner/barcode_node.py -> /ros2_ws/build/barcode_scanner/build/lib/barcode_scanner
+[5.587s] running install
+[5.603s] running install_lib
+[5.611s] creating /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner
+[5.640s] copying /ros2_ws/build/barcode_scanner/build/lib/barcode_scanner/__init__.py -> /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner
+[5.652s] copying /ros2_ws/build/barcode_scanner/build/lib/barcode_scanner/barcode_node.py -> /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner
+[5.693s] byte-compiling /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner/__init__.py to __init__.cpython-310.pyc
+[5.728s] byte-compiling /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner/barcode_node.py to barcode_node.cpython-310.pyc
+[5.737s] running install_data
+[5.740s] creating /ros2_ws/install/barcode_scanner/share/ament_index
+[5.744s] creating /ros2_ws/install/barcode_scanner/share/ament_index/resource_index
+[5.746s] creating /ros2_ws/install/barcode_scanner/share/ament_index/resource_index/packages
+[5.749s] copying resource/barcode_scanner -> /ros2_ws/install/barcode_scanner/share/ament_index/resource_index/packages
+[5.756s] copying package.xml -> /ros2_ws/install/barcode_scanner/share/barcode_scanner
+[5.763s] running install_egg_info
+[5.791s] Copying ../../build/barcode_scanner/barcode_scanner.egg-info to /ros2_ws/install/barcode_scanner/lib/python3.10/site-packages/barcode_scanner-0.1.0-py3.10.egg-info
+[5.911s] running install_scripts
+[5.961s] Installing barcode_node script to /ros2_ws/install/barcode_scanner/lib/barcode_scanner
+[5.964s] writing list of installed files to '/ros2_ws/build/barcode_scanner/install.log'
+[5.973s] Invoked command in '/ros2_ws/src/barcode_scanner' returned '0': PYTHONPATH=/ros2_ws/build/barcode_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/barcode_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_scanner build --build-base /ros2_ws/build/barcode_scanner/build install --record /ros2_ws/build/barcode_scanner/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[3.126s] Invoking command in '/ros2_ws/src/emergency_button': PYTHONPATH=/ros2_ws/build/emergency_button/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_button build --build-base /ros2_ws/build/emergency_button/build install --record /ros2_ws/build/emergency_button/install.log --single-version-externally-managed install_data
+[3.903s] running egg_info
+[3.905s] writing ../../build/emergency_button/emergency_button.egg-info/PKG-INFO
+[3.909s] writing dependency_links to ../../build/emergency_button/emergency_button.egg-info/dependency_links.txt
+[3.913s] writing entry points to ../../build/emergency_button/emergency_button.egg-info/entry_points.txt
+[3.914s] writing requirements to ../../build/emergency_button/emergency_button.egg-info/requires.txt
+[3.915s] writing top-level names to ../../build/emergency_button/emergency_button.egg-info/top_level.txt
+[3.951s] reading manifest file '../../build/emergency_button/emergency_button.egg-info/SOURCES.txt'
+[3.958s] writing manifest file '../../build/emergency_button/emergency_button.egg-info/SOURCES.txt'
+[3.963s] running build
+[3.966s] running build_py
+[3.967s] copying emergency_button/emergency_node.py -> /ros2_ws/build/emergency_button/build/lib/emergency_button
+[4.029s] running install
+[4.034s] running install_lib
+[4.036s] copying /ros2_ws/build/emergency_button/build/lib/emergency_button/emergency_node.py -> /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button
+[4.041s] byte-compiling /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button/emergency_node.py to emergency_node.cpython-310.pyc
+[4.054s] running install_data
+[4.055s] running install_egg_info
+[4.061s] removing '/ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button-0.1.0-py3.10.egg-info' (and everything under it)
+[4.071s] Copying ../../build/emergency_button/emergency_button.egg-info to /ros2_ws/install/emergency_button/lib/python3.10/site-packages/emergency_button-0.1.0-py3.10.egg-info
+[4.200s] running install_scripts
+[4.260s] Installing emergency_node script to /ros2_ws/install/emergency_button/lib/emergency_button
+[4.270s] writing list of installed files to '/ros2_ws/build/emergency_button/install.log'
+[4.338s] Invoked command in '/ros2_ws/src/emergency_button' returned '0': PYTHONPATH=/ros2_ws/build/emergency_button/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/emergency_button/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emergency_button build --build-base /ros2_ws/build/emergency_button/build install --record /ros2_ws/build/emergency_button/install.log --single-version-externally-managed install_data
