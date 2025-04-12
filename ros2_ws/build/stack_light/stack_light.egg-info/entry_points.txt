@@ -1,3 +1,0 @@
-[console_scripts]
-stack_node = stack_light.stack_node:main
-

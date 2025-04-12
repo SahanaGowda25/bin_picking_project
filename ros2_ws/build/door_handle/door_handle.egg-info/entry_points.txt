@@ -1,3 +1,0 @@
-[console_scripts]
-door_node = door_handle.door_node:main
-

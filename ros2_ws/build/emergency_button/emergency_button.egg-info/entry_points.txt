@@ -1,3 +1,0 @@
-[console_scripts]
-emergency_node = emergency_button.emergency_node:main
-
