@@ -25,8 +25,8 @@ The system processes pick requests from the user interface and simulates barcode
 ## Setup & Installation (macOS)
 
 ### Prerequisites
-- Docker Desktop for macOS
-- Python 3.11+ (installed inside Docker)
+- Docker Desktop for macOS 
+- Python 3.11+ 
 - Visual Studio Code 
 - Use of Terminal app with zsh shell (default on macOS)
 
@@ -134,17 +134,23 @@ Docker ensures a consistent environment on macOS where native ROS2 setup is comp
 ### ROS2 Humble
 Selected due to its long-term support status, community adoption, and because ROS Noetic (ROS1) is nearing end-of-life.
 
-### Asynchronous Patterns in ROS2 Services
-Asynchronous patterns allow for non-blocking service calls, which is important in robotics where multiple services may be running concurrently. This helps prevent delays or timeouts when waiting for responses and maintains responsiveness in the robot client.
+### Asynchronous vs. Synchronous Use
+For the ROS2 service-client architecture (e.g., toggling door state, emergency button), asynchronous methods were used where appropriate to ensure non-blocking behavior and enable multiple concurrent node operations. This helps achieve real-time responsiveness and better control across nodes handling sensor/actuator input.
+
+However, the REST API layer implemented with Flask follows synchronous request-response cycles. This was chosen to maintain simplicity and better control over logic flow, which is acceptable given the low-load and straightforward interface design.
 
 ### GUI Interface (HMI)
-The HMI was implemented as a web interface using HTML and JavaScript served by Flask. This was chosen for:
-- Compatibility with macOS browsers (Safari, Chrome)
-- Accessibility without requiring additional frameworks
-- Avoidance of heavier frameworks like React, simplifying deployment
+The HMI was implemented as a lightweight GUI using Flask to serve static HTML and JavaScript. Reasons for this include:
+- Seamless compatibility with macOS browsers (Safari, Chrome)
+- No need for complex JavaScript frameworks (e.g., React or Angular)
+- Fast load times and minimal setup
+- Direct integration with backend Flask APIs for controlling and visualizing system state
 
 ### Frontend Communication (macOS Docker)
-To enable the browser-based HMI on macOS to communicate with the Flask server inside Docker, either `host.docker.internal` or the local Mac IP address was used. Additionally, CORS headers were enabled using `flask-cors` to allow cross-origin requests from browser to Docker container.
+To enable the browser-based HMI on macOS to communicate with the Flask server inside Docker:
+- `host.docker.internal` was used (preferred for Docker on macOS)
+- As a fallback, Mac’s local IP address can be substituted in `script.js`
+- Cross-origin issues were resolved with `flask-cors` to ensure smooth data flow between browser and Flask API endpoints
 
 ---
 
@@ -158,7 +164,21 @@ To enable the browser-based HMI on macOS to communicate with the Flask server in
 
 ---
 
-## Developer
-Name: Sahana Chikkabelavanagala Krishnamurthy 
+## Author
+Sahana Chikkabelavangala Krishnamurthy 
 
+
+## Summary of Changes Made
+- Integrated Docker to run ROS2 and Python seamlessly on macOS
+- Used ROS2 Humble to comply with current standards and avoid ROS1 deprecation
+- Implemented ROS2 nodes for barcode scanner, door handle, emergency button, and stack light
+- Built REST APIs using Flask to handle pick requests and simulate robot client behavior
+- Used `flask-cors` to resolve cross-origin browser-to-Docker communication issues
+- Created a lightweight web-based GUI (HMI) using HTML and JavaScript
+- Used asynchronous service calls for ROS2 nodes and synchronous logic for Flask REST API
+- Used `host.docker.internal` and IP fallback strategy for network bridging
+- Structured system into reusable launch scripts for clear terminal separation
+- Provided a demo video, Git repository, and complete submission ZIP
+
+---
 
