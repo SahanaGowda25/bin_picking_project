@@ -83,7 +83,7 @@ If communication fails due to Docker isolation, replace `localhost` with your Ma
 ---
 
 ## Key Features
-- Simulated barcode scanning every 2 seconds
+- Simulated barcode scanning every 5 seconds
 - Door and emergency toggle via service interfaces
 - Stack light updates based on system state
 - REST APIs linked with ROS services for real-time data flow
@@ -164,8 +164,6 @@ To enable the browser-based HMI on macOS to communicate with the Flask server in
 
 ---
 
-## Author
-Sahana Chikkabelavangala Krishnamurthy 
 
 
 ## Summary of Changes Made
@@ -181,4 +179,6 @@ Sahana Chikkabelavangala Krishnamurthy
 - Provided a demo video, Git repository, and complete submission ZIP
 
 ---
+## Author
+Sahana Chikkabelavangala Krishnamurthy 
 
