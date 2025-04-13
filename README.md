@@ -6,7 +6,7 @@ This project simulates a bin picking cell control system using ROS2 (Humble), co
 - A web-based Human-Machine Interface (HMI)
 - ROS2 nodes representing physical components
 
-The system processes pick requests from the user interface and simulates barcode scanning, door handle status, emergency button, and stack light behavior in real-time. It is designed to reflect real-world industrial setups with modular and scalable components.
+The system processes pick requests from the user interface and simulates barcode scanning, door handle status, emergency button, and stack light behavior in real time. It is designed to reflect real-world industrial setups with modular and scalable components.
 
 ---
 
@@ -40,7 +40,7 @@ cd bin_picking_project/ros2_ws
 docker-compose build
 ```
 
-### Step 2: Launch container
+### Step 2: Launch the container
 ```bash
 docker-compose up -d
 docker exec -it bin-picking-ros2 bash
