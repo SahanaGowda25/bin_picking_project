@@ -92,7 +92,7 @@ If communication fails due to Docker isolation, replace `localhost` with your Ma
 ---
 
 ## Demo Video
-See `submission_video.mp4` for a screen-recorded walkthrough covering:
+Access the drive link - https://drive.google.com/drive/folders/1nRz-rUeN1BBnJ1xj9TLPDi0J3FY3UK3r?usp=drive_link for a screen-recorded walkthrough covering:
 - Project launch
 - GUI usage
 - Pick request processing
@@ -111,7 +111,6 @@ bin_picking_project/
 │   ├── Dockerfile
 │   ├── docker-compose.yml
 ├── .git/                 # Local Git repo
-├── submission_video.mp4
 ├── README.md
 ```
 
