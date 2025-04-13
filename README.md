@@ -80,6 +80,18 @@ Interact with:
 
 If communication fails due to Docker isolation, replace `localhost` with your Mac IP address in `script.js`.
 
+How to fix browser-to-Docker network issues on macOS:
+```bash
+ipconfig getifaddr en0  # use this IP in script.js
+```
+
+Then update your script.js:
+```bash
+fetch("http://192.168.1.X:8080/pick", {...})
+```
+
+Use this instead of localhost or host.docker.internal, which may fail on macOS due to network namespace separation between Docker and the host browser.
+
 ---
 
 ## Key Features
