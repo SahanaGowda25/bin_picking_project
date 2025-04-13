@@ -34,7 +34,7 @@ function updateStatus() {
     const pickId = document.getElementById('pickId').value;
     const quantity = document.getElementById('quantity').value;
   
-    fetch('http://192.168.2.135:8080/pick', {
+    fetch('http://ip_address:8080/pick', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ pickId: Number(pickId), quantity: Number(quantity) })
